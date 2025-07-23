@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Noto Serif", serif;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Noto Serif", serif; */
 }
 img{
     width: 100%;
@@ -11,4 +12,84 @@ img{
 .size {
   max-width: 1280px;
   margin: 0 auto;
+  padding: 0px 20px;
+}
+.title-1{
+    font-size:4rem;
+    line-height: 4rem;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+.title-2{
+    font-size:3rem;
+    line-height:3rem;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+    margin-bottom: 20px;
+}
+.title-3{
+    font-size:2.5rem;
+    line-height:2.5rem;
+    font-weight: 700;
+    font-family: "Noto Serif", serif;
+}
+.paragraph{
+    font-size: 1.4rem;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+.orange{
+    color: rgb(233, 90, 8);
+}
+.dark-1{
+    color: rgb(10, 10, 10);
+    font-weight: 700;
+}
+/* header-style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    height: 70px;
+    width: 135px;
+}
+nav ul li{
+    list-style: none;
+   
+    display:inline;
+    margin-right: 15px;
+}
+nav ul li a{
+   text-decoration: none;
+    color:rgba(0, 0, 0, 0.5) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* responsive-style */
+ /* For-mobile */
+ /* mobile */
+@media (max-width: 768px){
+ nav ul span{
+    display:none;
+ }
+
 }
