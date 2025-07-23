@@ -40,12 +40,14 @@ img{
 }
 .orange{
     color: rgb(233, 90, 8);
+    font-family: "Noto Serif", serif;
 }
 .dark-1{
     color: rgb(10, 10, 10);
     font-weight: 700;
 }
 /* header-style */
+    /* nav-bar */
 nav{
     display: flex;
     justify-content: space-between;
@@ -65,7 +67,14 @@ nav ul li a{
    text-decoration: none;
     color:rgba(0, 0, 0, 0.5) ;
 }
+ /* banner-style */
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 100px;
 
+ }
 
 
 
@@ -91,5 +100,8 @@ nav ul li a{
  nav ul span{
     display:none;
  }
-
+ .banner{
+    flex-direction: column-reverse;
+    gap: 20px;
+ }
 }
